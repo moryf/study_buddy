@@ -1,7 +1,10 @@
 from fastapi import FastAPI
+from controllers import topic_controller
+
 
 app = FastAPI()
 
+app.include_router(router=topic_controller.router, prefix="/topic", tags=["topic"])
 
 @app.get("/")
 async def root():
