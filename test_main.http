@@ -14,5 +14,5 @@ POST http://127.0.0.1:8000/topic/explain
 Accept: application/json
 
 {
-    "topic": "Spring Boot"
+    "topic": "LangChain"
 }
