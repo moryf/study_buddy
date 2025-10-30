@@ -8,7 +8,7 @@ app.include_router(router=topic_controller.router, prefix="/topic", tags=["topic
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "HI"}
 
 
 @app.get("/hello/{name}")
